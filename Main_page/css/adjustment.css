@@ -1,0 +1,276 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+
+.col-md-4 {
+    width: 48.333333%;
+    border-style: double;
+}
+
+
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+
+.jumbotron {
+	text-align: center;
+    background-image: url("../image2.jpg");   
+}
+
+.btn-danger {
+	font-size: 36px
+}
+
+ ul.nav{
+ 	font-size: 12px;
+ }
+
+ a.navbar-brand {
+ 	font-size: 20px;
+ }
+
+
+ul.nav, .jumbotron h1 {
+	font-family: 'Arvo', serif;
+}
+
+.jumbotron h1 {
+	margin-bottom: 37px;
+    margin-top: 0px;
+    font-size: 30px;
+}
+
+
+.jumbotron p{
+	margin-bottom: 30px;
+}
+
+
+.jumbotron.container_img {
+    text-align: center;
+    background-color: #989696;
+}
+
+.jumbotron.image {   
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.image{
+    margin-bottom: 14px;
+    border: 15px solid #272727;
+    padding: 10px;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+}
+
+
+
+.container_img:hover .middle {
+    opacity: 1;
+}
+
+.text {
+    margin-top: -80px;
+    background-color: #d9534e;
+    color: white;
+    font-size: 16px;
+    padding: 5px 29px;
+}  
+
+/* Btn animation */
+
+.btn-default{
+    border-radius: 0px;
+    background-color: #000000;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 19px;
+    padding: 9px;
+    width: 188px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.btn-default span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  /*transition: 0.5s;*/
+}
+
+.btn-default span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-default:hover span {
+  padding-right: 25px;
+}
+
+.btn-default:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+
+/* Line modifications */
+hr {
+   border-color: black;
+    margin-left: -30px;
+}
+
+hr.break_line{
+    overflow: visible; /* For IE */
+    
+    border-top: medium double #333; 
+    border-bottom: medium double #333;
+    
+    text-align: center;
+}
+
+hr.break_line:after {
+    content: "⎊";
+    display: inline-block;
+    position: relative;
+    
+    top: -0.7em; /*Sets the Y-position */
+    font-size: 1.5em; /*Sets size*/
+    padding: 0 0.15em;  /* Padding size to cover <hr> at a certain area */
+    background: white;
+}
+
+hr.break_line{
+    -webkit-animation:colorchange 20s infinite alternate;    
+}
+
+
+@-webkit-keyframes colorchange {
+    
+    0% {  
+        color: blue;
+    }
+
+    10% { 
+        color: #8e44ad;
+    }
+
+    20% {
+        color: #1abc9c;
+    }
+
+    30% {        
+        color: #d35400;
+    }
+
+    40% {        
+        color: blue;
+    }
+
+    50% {      
+        color: #34495e;
+    }
+
+    60% {       
+        color: blue;
+    }
+
+    70% {        
+        color: #2980b9;
+    }
+    80% {    
+        color: #f1c40f;
+    }
+
+    90% {    
+        color: #2980b9;
+    }
+
+    100% {       
+        color: pink;
+    }
+}
+
+
+/* Default to hide the video on all devices */
+#video{display:none}
+
+/* Default to display the image on all devices */
+#videosubstitute{display:block;width:auto;height:100%;}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+#fullScreenDiv{
+    width:100%;
+    min-height: 100%; 
+   /* Set the height to match that of the viewport. */
+    height: 100vh;
+    width: auto;
+    padding:0!important;
+    margin: 0!important;
+    background-color: gray;
+    position: relative;
+}
+#video{    
+    width: 50vw; 
+    height: auto;
+    object-fit: cover;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+
+@media (min-aspect-ratio: 16/9) {
+  #video{
+    height: 150%;
+    top: -100%;
+  }
+  #videosubstitute{
+    display:block;
+    width: 100%;
+    height: auto;}
+}
+
+@media (max-aspect-ratio: 16/9) {
+  #video {
+    width: 100%;
+    left: -100%;
+  }
+  #videosubstitute{display:block;width:auto;height:100%;}
+}
+/*if there is 992  pixels or more, then display the video but hide the image*/
+@media only screen and (min-width : 992px) {
+#video{display:block;}
+#videosubstitute{display:none}
+}   
+
+/* The container for our text and stuff */
+#messageBox{
+    position: absolute;  top: 0;  left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:100%;
+}
+
+
+
