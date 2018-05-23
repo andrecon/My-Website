@@ -95,5 +95,6 @@ div.description {
     position: center; top: 20; left: 0;
     display: flex;
     justify-content: center;
-    padding-top: 20px;
+    
+    padding-top: 34px;
 }

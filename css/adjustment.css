@@ -1,9 +1,12 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 
+
 .col-md-4 {
-    width: 48.333333%;
+    max-width: 100%;
+    height: auto;
     border-style: double;
 }
+
 
 
 body {
