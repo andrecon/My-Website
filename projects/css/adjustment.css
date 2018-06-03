@@ -9,23 +9,46 @@ html, body {
     margin: 0;
 }
 #fullScreenDiv{
+    
+   
     width:100%;
     min-height: 100%; 
-   /* Set the height to match that of the viewport. */
+    /* Set the height to match that of the viewport. */
     height: 100vh;
     width: auto;
     padding:0!important;
     margin: 0!important;
     background-color: white;
-    position: relative;
+    position: relative; 
+    
+    
+    /*
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    */
+    
 }
-#video{    
+#video{  
+    
+    /* PUT THIS BACK */
+    
+    /*
     width: 50vw; 
     height: auto;
     object-fit: cover;
     left: 0px;
     top: 0px;
     z-index: 1;
+    */
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    
 }
 
 @media (min-aspect-ratio: 16/9) {
@@ -70,10 +93,12 @@ div.description {
     text-align: center;
 }
 
+/*
 .box{
 	width:auto;
 	height:50px;
 }
+*/
 
 .box_one{
     width: auto;
@@ -84,10 +109,12 @@ div.description {
 	background:black;
 }
 
+/*
 .box_two{
     width: auto;
     height: 85px;
 }
+*/
 
 
 .white{
