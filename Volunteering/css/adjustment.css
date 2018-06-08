@@ -25,29 +25,54 @@ img {
 /* Default to display the image on all devices */
 #videosubstitute{display:block;width:auto;height:100%;}
 
+
 html, body {
     height: 100%;
+    width: 100%;
     margin: 0;
 }
+
+
+/*
+html, body {
+  padding-top: 20px;
+  padding-bottom: 20px;
+
+
+}
+*/
+
+
 #fullScreenDiv{
-    width:100%;
+    /*width:100%;*/
+    /*
     min-height: 100%; 
-   /* Set the height to match that of the viewport. */
-    height: 100vh;
+    min-width: 100%;
+    */
+
+    
+    /* Set the height to match users viewpoint. */
+
+    /*
+    height: auto;
     width: auto;
+
+    */
+    /*
     padding:0!important;
     margin: 0!important;
-    background-color: white;
-    position: relative;
+    */
+
+    background-color: black;
+
+    /*
+    position: relative; 
+    */
+/*
+    min-width: 100%;
+    */
 }
-#video{    
-    width: 50vw; 
-    height: auto;
-    object-fit: cover;
-    left: 0px;
-    top: 0px;
-    z-index: 1;
-}
+
 
 @media (min-aspect-ratio: 16/9) {
   #video{
@@ -73,13 +98,15 @@ html, body {
 #videosubstitute{display:none}
 }   
 
-/* The container for our text and stuff */
+/* The container for our text */
 #messageBox{
-    position: absolute;  top: 0;  left: 0;
+    /*position: absolute;  top: 0;  left: 0;*/
+    position: absolute; bottom: 0;
+     
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 95%;
     height:100%;
     color: white;
 }
