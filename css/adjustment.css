@@ -362,11 +362,11 @@ footer {
     display: block;  
     /*margin: 0 auto; */
     /*margin: 0 16px;*/
-    margin: -18px 16px;
+    margin: -18px 11px;
     float: left;
     
     /*margin-right: 36px;*/
-    margin-right: 130px;
+    /*margin-right: 130px;*/
     
 }
 
@@ -422,8 +422,9 @@ footer {
 }
 
 @media only screen and (min-width: 991px) {
-    .info {
+    .objects {
         margin-right: 50px;
+        margin-left: 0px;
     }
 }
 
