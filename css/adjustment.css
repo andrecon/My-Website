@@ -424,9 +424,13 @@ footer {
 @media only screen and (min-width: 991px) {
     .objects {
         margin-right: 50px;
-        margin-left: 0px;
+        margin-left: 50px;
     }
+  
 }
+
+
+
 
 
 
