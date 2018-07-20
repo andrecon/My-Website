@@ -1,6 +1,10 @@
 div.info{
     text-align: center;
     color: white;
+
+     position: relative;
+width: 100%;
+overflow: hidden;
 }
 
 body {
@@ -64,6 +68,7 @@ html, body {
     */
 
     background-color: black;
+    border: 10px outset #ddd;
 
     /*
     position: relative; 
@@ -110,3 +115,220 @@ html, body {
     height:100%;
     color: white;
 }
+
+
+
+
+
+
+/*Footer class modifications */
+
+
+.footer-class
+{
+    position: relative;
+   margin: 0 auto;
+   line-height: 50px;
+   
+
+    background-color: black;
+    color: #ffffff;
+    
+    text-align: left;
+
+    font-size: 20px;
+    padding: 80px;
+
+
+}
+
+
+/* Hovering Animation */
+@-webkit-keyframes hover-anim {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hover-anim {
+  0% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+  50% {
+    -webkit-transform: translateY(-4px);
+    transform: translateY(-4px);
+  }
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@-webkit-keyframes hover-anim-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+@keyframes hover-anim-float {
+  100% {
+    -webkit-transform: translateY(-8px);
+    transform: translateY(-8px);
+  }
+}
+.hover-anim {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hover-anim:hover, .hover-anim:focus, .hover-anim:active {
+  -webkit-animation-name: hover-anim-float, hover-anim;
+  animation-name: hover-anim-float, hover-anim;
+  -webkit-animation-duration: .3s, 1.5s;
+  animation-duration: .3s, 1.5s;
+  -webkit-animation-delay: 0s, .3s;
+  animation-delay: 0s, .3s;
+  -webkit-animation-timing-function: ease-out, ease-in-out;
+  animation-timing-function: ease-out, ease-in-out;
+  -webkit-animation-iteration-count: 1, infinite;
+  animation-iteration-count: 1, infinite;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-direction: normal, alternate;
+  animation-direction: normal, alternate;
+}
+
+/*
+.circle {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  font-size: 15px;
+  color: black;
+  line-height: 25px;
+  text-align: center;
+  background: white;
+}
+*/
+
+.circle {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border-radius: 50%;
+    text-align: center;
+    display: block;
+    /*margin: 0 auto;*/
+    margin: -20px auto;
+    float: left;
+
+    font-size: 23px;
+}
+
+
+.data
+{
+    height: auto;
+    width: auto;  
+    text-align: center;
+    display: block;  
+    /*margin: 0 auto; */
+    /*margin: 0 16px;*/
+    margin: -18px 11px;
+    float: left;
+    
+    /*margin-right: 36px;*/
+    /*margin-right: 130px;*/
+    
+    
+}
+
+.tab-1{
+    display:inline-block; width:ONE-TAB-WIDTH;
+}
+
+/* Social Media Icons */
+
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+  color: #3B5998;
+}
+
+.fa-github
+{
+    color: #385998;
+}
+
+.fa-linkedin
+{
+    color: #385998;
+}
+
+/* Takes out the color and underline of anchor tags from Footer-class ONLY */
+.footer-class a {
+    text-decoration: none; 
+}
+.footer-class a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.col-md {
+    max-width: 39%;
+    height: 90px;
+    border-style: double;
+}
+
+
+/* Media Query */
+
+@media only screen and (max-width: 991px) {
+    .objects {
+        padding-bottom: 90px;
+
+    }
+}
+
+@media only screen and (min-width: 991px) {
+    .objects {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+  
+}
+
+
+/* Line modifications */
+hr {
+   border-color: white;
+    margin-left: -30px;
+}
+
+hr.break_line{
+    overflow: visible; /* For IE */
+    
+    border-top: medium double #333; 
+    border-bottom: medium double #333;
+    
+    text-align: center;
+    border-color: white;
+}
+
+
+
+
