@@ -97,19 +97,18 @@ ul.nav, .jumbotron h1 {
 
 @media only screen and (max-width: 991px) {
     .text {
-    margin-top: -90px;
-    margin-bottom: 15px;
+    margin-top: -140px;
     background-color: #d9534e;
     color: white;
     font-size: 16px;
     padding: 5px 29px;
-} 
+}  
   
 }
 
 @media only screen and (min-width: 991px) {
     .text {
-    margin-top: -80px;
+    margin-top: -90px;
     background-color: #d9534e;
     color: white;
     font-size: 16px;
