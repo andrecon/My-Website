@@ -287,6 +287,8 @@ hr.break_line{
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+  padding-bottom: 5px;
 }
 .hover-anim:hover, .hover-anim:focus, .hover-anim:active {
   -webkit-animation-name: hover-anim-float, hover-anim;
@@ -394,6 +396,7 @@ hr.break_line{
 
 /* Media Query */
 
+/* If screen size is for mobile */
 @media only screen and (max-width: 991px) {
     .objects {
         padding-bottom: 90px;
@@ -401,6 +404,7 @@ hr.break_line{
     }
 }
 
+/* If screen size is for Desktop */
 @media only screen and (min-width: 991px) {
     .objects {
         margin-right: 50px;
