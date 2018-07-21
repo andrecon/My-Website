@@ -103,10 +103,9 @@ html, body {
 #videosubstitute{display:none}
 }   
 
-
-
+/* The container for our text */
 #messageBox{
-    
+    /*position: absolute;  top: 0;  left: 0;*/
     position: absolute; bottom: 0;
      
     display: flex;
@@ -116,6 +115,7 @@ html, body {
     height:100%;
     color: white;
 }
+
 
 
 
