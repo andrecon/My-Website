@@ -104,7 +104,7 @@ html, body {
 }   
 
 
-/*
+
 #messageBox{
     
     position: absolute; bottom: 0;
@@ -116,44 +116,7 @@ html, body {
     height:100%;
     color: white;
 }
-*/
 
-@media only screen and (max-width: 991px) {
-    /* The container for our text */
-    #messageBox
-    {
-      /*position: absolute;  top: 0;  left: 0;*/
-      position: absolute; bottom: 0;
-       
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 95%;
-      height:100%;
-      color: white;
-
-      padding-left: 40px;
-    }
-}  
-  
-}
-
-@media only screen and (min-width: 991px) {
-    /* The container for our text */
-    #messageBox
-    {
-      /*position: absolute;  top: 0;  left: 0;*/
-      position: absolute; bottom: 0;
-       
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      width: 95%;
-      height:100%;
-      color: white;
-    }
-}
-}
 
 
 
