@@ -85,13 +85,13 @@ ul.nav, .jumbotron h1 {
 }
 
 
-
+/*
 .container_img:hover .middle {
     opacity: 1;
     padding-bottom: 30px;
 }
 
-
+*/
   
 
 
@@ -102,7 +102,13 @@ ul.nav, .jumbotron h1 {
     color: white;
     font-size: 16px;
     padding: 5px 29px;
-}  
+} 
+
+/* If Issue, Take this out */
+    .container_img:hover .middle {
+    opacity: 1;
+    padding-bottom: 30px;
+} 
   
 }
 
@@ -112,8 +118,14 @@ ul.nav, .jumbotron h1 {
     background-color: #d9534e;
     color: white;
     font-size: 16px;
-    padding: 5px 29px;
+    padding: 5px 19px;
 } 
+
+/* If Issue, Take this out */
+    .container_img:hover .middle {
+    opacity: 1;
+    padding-top: 15px;
+}
   
 }
 

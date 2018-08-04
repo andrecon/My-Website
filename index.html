@@ -61,7 +61,14 @@
                 <li><a href="index.html">Home</a></li>
                  <!-- <li><a href="#about" >About Me</a></li> -->
                 <li><a href="javascript:myFunction();" >About Me</a></li>
-                <li><a href="Resume.pdf">Contact Info/Resume</a></li>
+
+                <!-- To make this anchor to instead download file -->
+                <!-- <li><a href="Resume.pdf" target="_blank" download="Andres_Contreras">Contact Info/Resume</a></li> -->
+                <!-- <li><a href="Resume.pdf" target="_blank">Contact Info/Resume</a></li> -->
+
+                <!-- <li><a href="Resume.pdf" target="popup" onclick="window.open('Resume.pdf','popup', 'width= 600, height= 600, scrollbars=no,resizable=no'); return false;">Contact Info/Resume</a></li> -->
+                 <li><a href="javascript:void(0);" onclick="window.open('Resume.pdf', '_blank', 'width=300,height=250');">Contact Info/Resume</a></li> 
+
               </ul>
             </div>
           </div>
@@ -71,7 +78,7 @@
       
         <div class="jumbotron"> 
             <div class="container_img">
-                <img alt="140x140" data-src="holder.js/140x140" src="profile.jpg" data-holder-rendered="true" class="image" style="width: 250px;height: 300px;" >
+                <img alt="140x140" data-src="holder.js/140x140" src="Face_Shot.jpg" data-holder-rendered="true" class="image" style="width: 250px;height: 300px;" >
                 
                 <div class="middle">
                     <div class="text">Andres Contreras</div>
