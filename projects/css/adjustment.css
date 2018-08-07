@@ -18,7 +18,7 @@ html, body {
     width: auto;
     padding:0!important;
     margin: 0!important;
-    background-color: white;
+    background-color: black;
     position: relative; 
 
     /* If anything goes wrong, take this out */
@@ -71,7 +71,20 @@ html, body {
     padding-top: 34px;
 }
 
-/* Updating */
-#glass{
-    object-fit: cover;
+
+/* If screen size is for mobile */
+@media only screen and (max-width: 991px) {
+    .button {
+        text-align: center;
+
+    }
+}
+
+/* If screen size is for Desktop */
+@media only screen and (min-width: 991px) {
+    .button {
+        text-align: left ;
+
+    }
+  
 }

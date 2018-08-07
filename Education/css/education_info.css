@@ -17,7 +17,7 @@
   cursor: pointer;
   display: inline-block;
   position: relative;
-  /*transition: 0.5s;*/
+  transition: 0.5s;
 }
 
 .btn-secondary span:after {
@@ -29,7 +29,8 @@
 }
 
 .btn-secondary:hover span {
-  padding-right: 25px;
+  padding-right: 15px;
+  color: white;
 }
 
 .btn-secondary:hover span:after {
@@ -55,13 +56,15 @@ html, body {
     height: 100%;
     margin: 0;
 }
+
+/*
 #fullScreenDiv{
      
     width:100%;
     min-height: 100%; 
 
     
-    /* Set the height to match users viewpoint. */
+    
     height: auto;
     width: auto;
     padding:0!important;
@@ -69,6 +72,27 @@ html, body {
     background-color: black;
     position: relative; 
 }
+*/
+
+#fullScreenDiv{
+    
+    
+    width:100%;
+    min-height: 93%;
+    
+    height: 96vh;
+    width: auto;
+    padding:0!important;
+    margin: 0!important;
+    background-color: black;
+    position: relative; 
+
+    /* If anything goes wrong, take this out */
+    overflow: hidden;
+   
+}
+
+
 
 
 @media (min-aspect-ratio: 16/9) {
@@ -295,6 +319,9 @@ html, body {
     .objects {
         padding-bottom: 90px;
 
+    }
+    #messageBox{
+      padding-left: 51px;
     }
 }
 
