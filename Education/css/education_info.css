@@ -57,7 +57,7 @@ html, body {
     margin: 0;
 }
 
-/*
+
 #fullScreenDiv{
      
     width:100%;
@@ -71,25 +71,6 @@ html, body {
     margin: 0!important;
     background-color: black;
     position: relative; 
-}
-*/
-
-#fullScreenDiv{
-    
-    
-    width:100%;
-    min-height: 93%;
-    
-    height: auto;
-    width: auto;
-    padding:0!important;
-    margin: 0!important;
-    background-color: black;
-    position: relative;
-
-    /* If anything goes wrong, take this out */
-    overflow: hidden;
-   
 }
 
 
