@@ -48,35 +48,57 @@ html, body {
 
 
 #fullScreenDiv{
-    /*width:100%;*/
-    /*
-    min-height: 100%; 
-    min-width: 100%;
-    */
+    
+    
+    background-color: black;
 
     
-    /* Set the height to match users viewpoint. */
+    overflow: hidden;
+    
+}
 
+
+
+
+/* Mobile */
+@media only screen and (max-height: 991px)
+{
+  .fullScreenDiv{
     /*
-    height: auto;
-    width: auto;
-
+    width: 1300px;
+    margin: 0px 82px;
     */
-    /*
+    background-color: white;
+
+    
+    overflow: hidden;
+  }
+}
+
+
+/*
+#fullScreenDiv{
+     
+    width:100%;
+    
+    min-height: 121%;
+
+
+    
+    
+    
+    height: 100vh;
+    width: auto;
     padding:0!important;
     margin: 0!important;
-    */
-
     background-color: black;
-    
+    position: relative;
 
-    /*
-    position: relative; 
-    */
-/*
-    min-width: 100%;
-    */
+    overflow: hidden; 
+
+
 }
+*/
 
 
 @media (min-aspect-ratio: 16/9) {
