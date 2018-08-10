@@ -60,18 +60,19 @@ html, body {
 
 
 
-/* Mobile */
-@media only screen and (max-height: 991px)
+/* Desktop */
+@media only screen and (min-width: 991px)
 {
-  .fullScreenDiv{
-    /*
-    width: 1300px;
-    margin: 0px 82px;
-    */
-    background-color: white;
+  #fullScreenDiv{
+    
+    margin: 0 auto; 
+    width: 1200px;
+
+    background-color: black;
 
     
     overflow: hidden;
+    position: sticky;
   }
 }
 
@@ -133,7 +134,10 @@ html, body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 95%;
+
+
+    /*width: 95%;*/
+    width: 101%;
     height:100%;
     color: white;
 }
