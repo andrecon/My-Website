@@ -12,6 +12,10 @@
 
     <!-- Custom styles for this template -->
     <link href="css/adjustment.css" rel="stylesheet">
+
+    <!-- jquery functionalities -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
 </head>
     
 <body>
@@ -46,12 +50,11 @@
     <div id="fullScreenDiv">
         <div id="videoDiv">           
             <!-- <video autoplay muted loop playsinline id="Player_id_1"> -->
-            <video autoplay muted loop playsinline>
+            <video autoplay muted loop playsinline id="vid">
                     <source src="Joust_project.mov" type="video/mp4">
             </video> 
         </div>  
     </div>
-    
     <div class="box_one black"></div>
 
 <!--
@@ -96,6 +99,7 @@
 
     <!-- Implements my JavaScript Code -->
     <script src="../main.js"> </script>
+    <script src= "video.js"> </script>
 
 
     <!-- Bootstrap core JavaScript
