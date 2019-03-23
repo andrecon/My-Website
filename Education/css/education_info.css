@@ -1,16 +1,16 @@
 
 .btn-secondary{
-    border-radius: 0px;
-    background-color: #000000;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 19px;
-    padding: 9px;
-    width: 188px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+  border-radius: 0px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 19px;
+  padding: 9px;
+  width: 188px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
 .btn-secondary span {
@@ -53,29 +53,29 @@
 #videosubstitute{display:block;width:auto;height:100%;}
 
 html, body {
-    height: 100%;
-    margin: 0;
+  height: 100%;
+  margin: 0;
 }
 
 
 #fullScreenDiv{
-     
-    width:100%;
-    /*min-height: 100%; */
-    min-height: 96%;
+
+  width:100%;
+  /*min-height: 100%; */
+  min-height: 96%;
 
 
-    
-    
-    /*height: auto;*/
-    height: 96vh;
-    width: auto;
-    padding:0!important;
-    margin: 0!important;
-    background-color: black;
-    position: relative;
 
-    overflow: hidden; 
+
+  /*height: auto;*/
+  height: 96vh;
+  width: auto;
+  padding:0!important;
+  margin: 0!important;
+  background-color: black;
+  position: relative;
+
+  overflow: hidden; 
 
 
 }
@@ -91,7 +91,7 @@ html, body {
   #videosubstitute{
     display:block;
     width: 100%;
-    height: auto;}
+  height: auto;}
 }
 
 @media (max-aspect-ratio: 16/9) {
@@ -103,25 +103,25 @@ html, body {
 }
 /*if there is 992  pixels or more, then display the video but hide the image*/
 @media only screen and (min-width : 992px) {
-#video{display:block;}
-#videosubstitute{display:none}
+  #video{display:block;}
+  #videosubstitute{display:none}
 }   
 
 /* The container for our text */
 #messageBox{
-    /*position: absolute;  top: 0;  left: 0;*/
-    position: absolute; bottom: 0;
-     
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
-    height:100%;
-    color: white;
+  /*position: absolute;  top: 0;  left: 0;*/
+  position: absolute; bottom: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height:100%;
+  color: white;
 }
 
 .row { 
-    margin-top: auto;
+  margin-top: auto;
 }
 
 
@@ -130,18 +130,18 @@ html, body {
 
 .footer-class
 {
-    position: relative;
-   margin: 0 auto;
-   line-height: 50px;
-   
+  position: relative;
+  margin: 0 auto;
+  line-height: 50px;
 
-    background-color: black;
-    color: #ffffff;
-    
-    text-align: left;
 
-    font-size: 20px;
-    padding: 80px;
+  background-color: black;
+  color: #ffffff;
+
+  text-align: left;
+
+  font-size: 20px;
+  padding: 80px;
 
 }
 
@@ -217,57 +217,57 @@ html, body {
 
 /*
 .circle {
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-  font-size: 15px;
-  color: black;
-  line-height: 25px;
-  text-align: center;
-  background: white;
+width: 25px;
+height: 25px;
+border-radius: 50%;
+font-size: 15px;
+color: black;
+line-height: 25px;
+text-align: center;
+background: white;
 }
-*/
+ */
 
 .circle {
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    border-radius: 50%;
-    text-align: center;
-    display: block;
-    /*margin: 0 auto;*/
-    margin: -20px auto;
-    float: left;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
+  text-align: center;
+  display: block;
+  /*margin: 0 auto;*/
+  margin: -20px auto;
+  float: left;
 
-    font-size: 23px;
+  font-size: 23px;
 }
 
 
 .info
 {
-    height: auto;
-    width: auto;  
-    text-align: center;
-    display: block;  
-    /*margin: 0 auto; */
-    /*margin: 0 16px;*/
-    margin: -18px 11px;
-    float: left;
-    
-    /*margin-right: 36px;*/
-    /*margin-right: 130px;*/
-    
+  height: auto;
+  width: auto;  
+  text-align: center;
+  display: block;  
+  /*margin: 0 auto; */
+  /*margin: 0 16px;*/
+  margin: -18px 11px;
+  float: left;
+
+  /*margin-right: 36px;*/
+  /*margin-right: 130px;*/
+
 }
 
 .tab-1{
-    display:inline-block; width:ONE-TAB-WIDTH;
+  display:inline-block; width:ONE-TAB-WIDTH;
 }
 
 /* Social Media Icons */
 
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-instagram {
@@ -276,49 +276,49 @@ html, body {
 
 .fa-github
 {
-    color: #385998;
+  color: #385998;
 }
 
 .fa-linkedin
 {
-    color: #385998;
+  color: #385998;
 }
 
 /* Takes out the color and underline of anchor tags from Footer-class ONLY */
 .footer-class a {
-    text-decoration: none; 
+  text-decoration: none; 
 }
 .footer-class a{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .col-md {
-    max-width: 39%;
-    height: 90px;
-    border-style: double;
+  max-width: 39%;
+  height: 90px;
+  border-style: double;
 }
 
 
 /* Media Query */
 
 @media only screen and (max-width: 991px) {
-    .objects {
-        padding-bottom: 90px;
+  .objects {
+    padding-bottom: 90px;
 
-    }
-    #messageBox{
-      padding-left: 51px;
-    }
+  }
+  #messageBox{
+    padding-left: 51px;
+  }
 }
 
 @media only screen and (min-width: 991px) {
-    .objects {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-  
+  .objects {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
 }
 
 

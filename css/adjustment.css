@@ -1,14 +1,14 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 .description
 {
-    color: #9d9d9d;
-    font-size: 15px;
+  color: #9d9d9d;
+  font-size: 15px;
 }
 
 .col-md-4 {
-    max-width: 100%;
-    height: auto;
-    border-style: double;
+  max-width: 100%;
+  height: auto;
+  border-style: double;
 }
 
 
@@ -21,145 +21,119 @@ body {
 
 
 .jumbotron {
-	text-align: center;
-    background-image: url("../image2.jpg");  
-    border-style: solid;
-    border-width:thin; 
+  text-align: center;
+  background-image: url("../background.jpg");  
+  border-style: solid;
+  border-width:thin; 
 }
 
-.btn-danger {
-	font-size: 36px
+ul.nav{
+  font-size: 12px;
 }
 
- ul.nav{
- 	font-size: 12px;
- }
-
- a.navbar-brand {
- 	font-size: 20px;
- }
+a.navbar-brand {
+  font-size: 20px;
+}
 
 
 ul.nav, .jumbotron h1 {
-	font-family: 'Arvo', serif;
+  font-family: 'Arvo', serif;
 }
 
 .jumbotron h1 {
-	margin-bottom: 37px;
-    margin-top: 0px;
-    font-size: 30px;
+  margin-bottom: 37px;
+  margin-top: 0px;
+  font-size: 30px;
 }
 
 
 .jumbotron p{
-	margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 
 .jumbotron.container_img {
-    text-align: center;
-    background-color: #989696;
+  text-align: center;
+  background-color: #989696;
 }
 
 .jumbotron.image {   
-    opacity: 1;
-    display: block;
-    transition: .5s ease;
-    backface-visibility: hidden;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
 }
 
 .image{
-    margin-bottom: 14px;
-    border: 15px solid #272727;
-    padding: 10px;
+  margin-bottom: 14px;
+  border: 15px solid #272727;
+  padding: 10px;
 }
 
 .middle {
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
 }
-
-
-/*
-.container_img:hover .middle {
-    opacity: 1;
-    padding-bottom: 30px;
-}
-
-*/
-  
 
 
 @media only screen and (max-width: 991px) {
-    .text {
+  .text {
     margin-top: -140px;
-   background-color: #d9534e;
+    background-color: #d9534e;
     color: white;
     font-size: 16px;
     padding: 5px 29px;
-} 
+  } 
 
-/* If Issue, Take this out */
-    .container_img:hover .middle {
+  /* If Issue, Take this out */
+  .container_img:hover .middle {
     opacity: 1;
     padding-bottom: 30px;
-} 
-  
+  } 
+
 }
 
 @media only screen and (min-width: 991px) {
-    .text {
+  .text {
     margin-top: -90px;
     background-color: #d9534e;
     color: white;
     font-size: 16px;
     padding: 5px 19px;
-} 
+  } 
 
-/* If Issue, Take this out */
-    .container_img:hover .middle {
+  /* If Issue, Take this out */
+  .container_img:hover .middle {
     opacity: 1;
     padding-top: 15px;
-}
-  
-}
+  }
 
-/*
-.text {
-    margin-top: -80px;
-    background-color: #d9534e;
-    color: white;
-    font-size: 16px;
-    padding: 5px 29px;
-}  
-*/
-
+}
 /* Button animation */
 
 .btn-default{
-    border-radius: 0px;
-    background-color: #000000;
-    border: none;
-    color: #FFFFFF;
-    text-align: center;
-    font-size: 19px;
-    padding: 9px;
-    width: 188px;
-    transition: all 0.5s;
-    cursor: pointer;
-    margin: 5px;
+  border-radius: 0px;
+  background-color: #000000;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 19px;
+  padding: 9px;
+  width: 188px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
 
 .btn-default span {
   cursor: pointer;
   display: inline-block;
   position: relative;
-  /*transition: 0.5s;*/
 }
 
 .btn-default span:after {
@@ -185,79 +159,79 @@ ul.nav, .jumbotron h1 {
 
 /* Line modifications */
 hr {
-   border-color: black;
-    margin-left: -30px;
+  border-color: black;
+  margin-left: -30px;
 }
 
 hr.break_line{
-    overflow: visible; /* For IE */
-    
-    border-top: medium double #333; 
-    border-bottom: medium double #333;
-    
-    text-align: center;
+  overflow: visible; /* For IE */
+
+  border-top: medium double #333; 
+  border-bottom: medium double #333;
+
+  text-align: center;
 }
 
 hr.break_line:after {
-    content: "⎊";
-    display: inline-block;
-    position: relative;
-    
-    top: -0.7em; /*Sets the Y-position */
-    font-size: 1.5em; /*Sets size*/
-    padding: 0 0.15em;  /* Padding size to cover <hr> at a certain area */
-    background: white;
+  content: "⎊";
+  display: inline-block;
+  position: relative;
+
+  top: -0.7em; /*Sets the Y-position */
+  font-size: 1.5em; /*Sets size*/
+  padding: 0 0.15em;  /* Padding size to cover <hr> at a certain area */
+  background: white;
 }
 
 hr.break_line{
-    -webkit-animation:colorchange 20s infinite alternate;    
+  -webkit-animation:colorchange 20s infinite alternate;    
 }
 
 
 @-webkit-keyframes colorchange {
-    
-    0% {  
-        color: blue;
-    }
 
-    10% { 
-        color: #8e44ad;
-    }
+  0% {  
+    color: blue;
+  }
 
-    20% {
-        color: #1abc9c;
-    }
+  10% { 
+    color: #8e44ad;
+  }
 
-    30% {        
-        color: #d35400;
-    }
+  20% {
+    color: #1abc9c;
+  }
 
-    40% {        
-        color: blue;
-    }
+  30% {        
+    color: #d35400;
+  }
 
-    50% {      
-        color: #34495e;
-    }
+  40% {        
+    color: blue;
+  }
 
-    60% {       
-        color: blue;
-    }
+  50% {      
+    color: #34495e;
+  }
 
-    70% {        
-        color: #2980b9;
-    }
-    80% {    
-        color: #f1c40f;
-    }
+  60% {       
+    color: blue;
+  }
 
-    90% {    
-        color: #2980b9;
-    }
+  70% {        
+    color: #2980b9;
+  }
+  80% {    
+    color: #f1c40f;
+  }
 
-    100% {       
-        color: pink;
-    }
+  90% {    
+    color: #2980b9;
+  }
+
+  100% {       
+    color: pink;
+  }
 }
 
 /*Footer class modifications */
@@ -265,18 +239,18 @@ hr.break_line{
 
 .footer-class
 {
-    position: relative;
-   margin: 0 auto;
-   line-height: 50px;
-   
+  position: relative;
+  margin: 0 auto;
+  line-height: 50px;
 
-    background-color: black;
-    color: #ffffff;
-    
-    text-align: left;
 
-    font-size: 20px;
-    padding: 80px;
+  background-color: black;
+  color: #ffffff;
+
+  text-align: left;
+
+  font-size: 20px;
+  padding: 80px;
 
 }
 
@@ -348,60 +322,40 @@ hr.break_line{
   animation-direction: normal, alternate;
 }
 
-/*
+
 .circle {
-  width: 25px;
-  height: 25px;
+  height: 50px;
+  width: 50px;
+  background-color: white;
   border-radius: 50%;
-  font-size: 15px;
-  color: black;
-  line-height: 25px;
   text-align: center;
-  background: white;
-}
-*/
-
-.circle {
-    height: 50px;
-    width: 50px;
-    background-color: white;
-    border-radius: 50%;
-    text-align: center;
-    display: block;
-    /*margin: 0 auto;*/
-    margin: -20px auto;
-    float: left;
-
-    font-size: 23px;
+  display: block;
+  margin: -20px auto;
+  float: left;
+  font-size: 23px;
 }
 
 
 .info
 {
-    height: auto;
-    width: auto;  
-    text-align: center;
-    display: block;  
-    /*margin: 0 auto; */
-    /*margin: 0 16px;*/
-    margin: -18px 11px;
-    float: left;
-    
-    /*margin-right: 36px;*/
-    /*margin-right: 130px;*/
-    
-    
+  height: auto;
+  width: auto;  
+  text-align: center;
+  display: block;  
+  margin: -18px 11px;
+  float: left;
+
 }
 
 .tab-1{
-    display:inline-block; width:ONE-TAB-WIDTH;
+  display:inline-block; width:ONE-TAB-WIDTH;
 }
 
 /* Social Media Icons */
 
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-instagram {
@@ -410,28 +364,28 @@ hr.break_line{
 
 .fa-github
 {
-    color: #385998;
+  color: #385998;
 }
 
 .fa-linkedin
 {
-    color: #385998;
+  color: #385998;
 }
 
 /* Takes out the color and underline of anchor tags from Footer-class ONLY */
 .footer-class a {
-    text-decoration: none; 
+  text-decoration: none; 
 }
 .footer-class a{
-    color: white;
-    text-decoration: none;
-    cursor: pointer;
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .col-md {
-    max-width: 39%;
-    height: 90px;
-    border-style: double;
+  max-width: 39%;
+  height: 90px;
+  border-style: double;
 }
 
 
@@ -439,24 +393,17 @@ hr.break_line{
 
 /* If screen size is for mobile */
 @media only screen and (max-width: 991px) {
-    .objects {
-        padding-bottom: 90px;
+  .objects {
+    padding-bottom: 90px;
 
-    }
+  }
 }
 
 /* If screen size is for Desktop */
 @media only screen and (min-width: 991px) {
-    .objects {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-  
+  .objects {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
 }
-
-
-
-
-
-
-
