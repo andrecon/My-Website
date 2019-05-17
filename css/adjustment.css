@@ -83,8 +83,8 @@ ul.nav, .jumbotron h1 {
 
 @media only screen and (max-width: 991px) {
   .text {
-    margin-top: -140px;
-    background-color: #d9534e;
+    margin-top: -200px;
+    background-color:#181818;
     color: white;
     font-size: 16px;
     padding: 5px 29px;
@@ -101,7 +101,7 @@ ul.nav, .jumbotron h1 {
 @media only screen and (min-width: 991px) {
   .text {
     margin-top: -90px;
-    background-color: #d9534e;
+    background-color:#181818;
     color: white;
     font-size: 16px;
     padding: 5px 19px;
